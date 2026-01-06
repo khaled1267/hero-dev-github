@@ -26,14 +26,19 @@
 }
 
 header {
-    background-color: #FFF8F3;
+    
     margin-top: 50px;
+    background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
+
 }
 
 nav {
     width: 71%;
-    max-width: 1150px;
-    /* border: 2px solid rgb(138, 227, 5); */
+    max-width: 1600px;
+    height: 158px;
+     /* border: 2px solid rgb(138, 227, 5);  */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -56,6 +61,7 @@ nav {
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
     
 }
 
@@ -66,3 +72,43 @@ nav .menu a {
 
     text-decoration: none;
 }
+#banner{
+     border: 2px solid red;  
+
+    margin: 46px 38px 0 230px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-contain{
+    max-width: 580px;
+    
+}
+
+#banner .banner-contain h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-contain h1{
+    font-size: 85px;
+    font-weight:bold ;
+    color: #181818;
+    margin-bottom:20px ;
+}
+#banner .banner-contain p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-img{
+    max-width: 584px;
+    vertical-align: middle;
+     
+}
+
+
+
